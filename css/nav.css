@@ -1,0 +1,89 @@
+nav{
+    background-color: var(--red-flag);
+    height: 90px;
+    color: var(--font-color-second);
+    width: 100%;
+}
+nav .nav-wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    height: 100%;
+}
+nav .nav-wrapper .brasao{
+    height: 75%;
+}
+nav .nav-wrapper .brasao img{
+    height: 100%;
+    position: relative;
+    left: 50%;
+}
+nav .nav-wrapper .left-side{
+    background-color: var(--green-flag);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 350px;
+}
+nav .nav-wrapper .navigation-container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+nav .nav-wrapper .navigation-container > ul{
+    list-style: none;
+    display: flex;
+    margin-right: 50px;
+}
+nav .nav-wrapper .navigation-container > ul li a{
+    color: var(--font-color-second);
+    padding: 10px 15px;
+}
+nav .nav-wrapper .navigation-container > ul li a:hover{
+    background-color: var(--red-flag-hover);
+}
+.ham{
+    visibility: hidden;
+    position: absolute;
+    right: 0;
+}
+.offcanvas{
+    background-color: var(--red-flag);
+}
+.offcanvas hr, .offcanvas h5, .offcanvas span{
+    color: var(--font-color-second);
+}
+.body-g{
+    display: flex;
+}
+.offcanvas ul{
+    list-style: none;
+    display: flex;
+    width: 170px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 0 10px;
+}
+.offcanvas a{
+    color: var(--font-color-second);
+    display: block;
+    padding: 10px 0;
+}
+.active-off{
+    color: var(--font-color-second);
+}
+@media (max-width: 1000px) {
+    nav .nav-wrapper .navigation-container{
+        width: 0;
+        visibility: hidden;
+    }
+    nav .nav-wrapper .left-side{
+        width: 200px;
+    }
+    .ham{
+        visibility: visible;
+    }
+}
+.material-symbols-outlined{
+    color: var(--font-color-second);
+}

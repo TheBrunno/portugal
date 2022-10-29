@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none !important;
+    color: var(--font-color-primary);
+    border: none;
+    outline: none;
+}
+body{
+    overflow-x: hidden;
+}
+:root{
+    --red-flag: #d52b1e;
+    --green-flag: #006600;
+    --yellow-flag: #ffcc4d;
+    --blue-flag: #003399;
+    --light-blue-flag: #829acd;
+    --font-color-primary: #000;
+    --font-color-second: #fff;
+    --red-flag-hover: #bf271c;
+}
+button{
+    background-color: inherit;
+}
