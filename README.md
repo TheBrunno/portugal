@@ -12,7 +12,7 @@
   <li>Eduardo Li Chen</li>
   <li>Guilherme de Oliveira Machado</li>
   <li>Kauã de Souza da Conceição</li>
+  <li>Paulo Gonçalves de Jesus</li>
   <li>Rebecca Manuela da Silva Cruz</li>
   <li>Victor Gonçalves Volpi</li>
-  <li>Vitor Pereira Alves</li>
 </ul>
