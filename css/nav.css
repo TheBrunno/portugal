@@ -34,6 +34,8 @@ nav .nav-wrapper .navigation-container > ul{
     list-style: none;
     display: flex;
     margin-right: 50px;
+    margin-bottom: 0;
+    align-items: center;
 }
 nav .nav-wrapper .navigation-container > ul li a{
     color: var(--font-color-second);
