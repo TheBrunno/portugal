@@ -3,6 +3,9 @@ nav{
     height: 90px;
     color: var(--font-color-second);
     width: 100%;
+    position: fixed;
+    z-index: 5;
+    box-shadow: 2px 2px 10px #00000023;
 }
 nav .nav-wrapper{
     display: flex;
@@ -42,7 +45,8 @@ nav .nav-wrapper .navigation-container > ul li a{
     padding: 10px 15px;
 }
 nav .nav-wrapper .navigation-container > ul li a:hover{
-    background-color: var(--red-flag-hover);
+    /* background-color: var(--red-flag-hover); */
+    border-bottom: 2px solid #fff;
 }
 .ham{
     visibility: hidden;
