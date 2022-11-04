@@ -1,4 +1,4 @@
-<h1>Trabalho em grupo sobre Portugal 1DSA</h1>
+<h1>Trabalho em grupo sobre Portugal - 1DSA</h1>
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/68453992/198856247-4dc28fd8-609c-43d1-95d9-290c700030e0.gif">
