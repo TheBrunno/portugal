@@ -20,7 +20,6 @@
     display: flex;
     justify-content: space-between;
     width: 85vw;
-    /* background-color: red; */
 }
 .section h1{
     font-size: 80px;
@@ -32,39 +31,17 @@
 .section .right-side p{
     margin-bottom: 0;
 }
-/* .slide[data-anchor='slide1']{
-    background-image: url('../images/portugal-form.png');
-    background-size: 500px;
-    background-repeat: no-repeat;
-    background-position: right bottom;
-} */
 .slide-container h3{
     font-size: 60px;
     height: max-content !important;
 }
-
-
 #fp-nav ul li a span{
     background-color: var(--red-flag);
 }
 .fp-slidesNav ul{
     text-align: center;
 }
-@keyframes floating{
-    0%,to{
-        transform:translate(0%,-50%)
-    }
-    25%{
-        transform:translate(5px,calc(-50% + 15px))
-    }
-    50%{
-        transform:translate(10px,calc(-50% + 5px))
-    }
-    75%{
-        transform:translate(0%,calc(-50% + 15px))
-    }
-}
-@media (max-width: 1000px) {
+@media (max-width: 1058px) {
     .section h1{
         text-align: center;
     }
@@ -76,5 +53,25 @@
     }
     .fp-next{
         right: 35px;
+    }
+    .section h2{
+        text-align: center;
+    }
+}
+@media (max-width: 500px){
+    .fp-prev,
+    .fp-next{
+        visibility: hidden;
+        height: 0;
+        width: 0;
+    }
+    .section h1{
+        font-size: 4em;
+    }
+    .section h3{
+        font-size: 3em;
+    }
+    .portugal{
+        font-size: 1.4em;
     }
 }

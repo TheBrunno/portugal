@@ -78,7 +78,7 @@ nav .nav-wrapper .navigation-container > ul li a:hover{
 .active-off{
     color: var(--font-color-second);
 }
-@media (max-width: 1000px) {
+@media (max-width: 1058px) {
     nav .nav-wrapper .navigation-container{
         width: 0;
         visibility: hidden;
