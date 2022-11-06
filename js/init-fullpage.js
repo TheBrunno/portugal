@@ -33,7 +33,7 @@ var myFullpage = new fullpage('#fullpage', {
     scrollOverflow: true,
     scrollOverflowMacStyle: false,
     scrollOverflowReset: false,
-    touchSensitivity: 15,
+    touchSensitivity: 5,
     bigSectionsDestination: null,
 
     // Accessibility
