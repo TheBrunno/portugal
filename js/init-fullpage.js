@@ -71,14 +71,12 @@ var myFullpage = new fullpage('#fullpage', {
     observer: true,
 
     // Events
-    beforeLeave: function(origin, destination, direction, trigger){},
-    onLeave: function(origin, destination, direction, trigger){},
-    afterLoad: function(origin, destination, direction, trigger){},
-    afterRender: function(){},
-    afterResize: function(width, height){},
-    afterReBuild: function(){},
-    afterResponsive: function(isResponsive){},
-    afterSlideLoad: function(section, origin, destination, direction, trigger){},
-    onSlideLeave: function(section, origin, destination, direction, trigger){},
-    onScrollOverflow: function(section, slide, position, direction){}
+    afterLoad: () => {
+        const locals = document.querySelectorAll(`.navigation-container>ul>li>a`);
+        for(e of locals){
+            e.style.borderBottom = "none";
+        }
+        const local = document.querySelector(`li>a[href="#${fullpage_api.getActiveSection().anchor}"]`);
+        local.style.borderBottom = "#fff solid 2px";
+    },
 });
