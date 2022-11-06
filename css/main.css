@@ -40,6 +40,12 @@
 .fp-slidesNav ul{
     text-align: center;
 }
+.red-text{
+    color: var(--red-flag);
+}
+.green-text{
+    color: var(--green-flag);
+}
 @media (max-width: 1058px) {
     .section h1{
         text-align: center;
