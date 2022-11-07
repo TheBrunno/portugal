@@ -76,7 +76,7 @@ var myFullpage = new fullpage('#fullpage', {
         for(e of locals){
             e.style.borderBottom = "none";
         }
-        const local = document.querySelector(`li>a[href="#${fullpage_api.getActiveSection().anchor}"]`);
+        const local = document.querySelector(`nav li>a[href="#${fullpage_api.getActiveSection().anchor}"]`);
         local.style.borderBottom = "#fff solid 2px";
     },
 });
