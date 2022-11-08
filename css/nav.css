@@ -42,11 +42,22 @@ nav .nav-wrapper .navigation-container > ul{
 }
 nav .nav-wrapper .navigation-container > ul li a{
     color: var(--font-color-second);
-    padding: 10px 15px;
+    padding: 5px 15px;
+    position: relative;
 }
-nav .nav-wrapper .navigation-container > ul li a:hover{
-    /* background-color: var(--red-flag-hover); */
-    border-bottom: 2px solid #fff;
+nav .nav-wrapper .navigation-container > ul li a:after{
+    content: "";
+    position: absolute;
+    background-color: #fff;
+    height: 2px;
+    width: 100%;
+    left: 0;
+    bottom: -10px;
+    width: 0;
+    transition: 0.3s;
+}
+nav .nav-wrapper .navigation-container > ul li a.active-local:after{
+    width: 100% !important;
 }
 .ham{
     visibility: hidden;

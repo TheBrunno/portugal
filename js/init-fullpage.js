@@ -76,10 +76,10 @@ var myFullpage = new fullpage('#fullpage', {
             if(width >= 1058){
                 const locals = document.querySelectorAll(`.navigation-container>ul>li>a`);
                 for(e of locals){
-                    e.style.borderBottom = "none";
+                    e.classList.remove('active-local');
                 }
                 const local = document.querySelector(`li>a[href="#${fullpage_api.getActiveSection().anchor}"]`);
-                local.style.borderBottom = "#fff solid 2px";
+                local.classList.add('active-local');
             }
         },
     });
