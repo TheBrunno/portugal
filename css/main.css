@@ -80,3 +80,8 @@
         font-size: 1.15em;
     }
 }
+@media (max-width: 382px){
+    .section h3{
+        font-size: 2.6em;
+    }
+}
