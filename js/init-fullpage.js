@@ -2,7 +2,7 @@ var myFullpage = new fullpage('#fullpage', {
     // Navigation
     menu: '.navigation-container',
     lockAnchors: false,
-    anchors: ['section1', 'section2', 'section3', 'section4', 'section5', 'section6', 'section7'],
+    anchors: ['section1', 'section2', 'section3', 'section4', 'section5', 'section6', 'section7', 'section8'],
     navigation: true,
     navigationPosition: 'right',
     showActiveTooltip: true,
@@ -79,7 +79,7 @@ var myFullpage = new fullpage('#fullpage', {
 
             locals.forEach(e => { e.classList.remove('active-local') });
 
-            (fullpage_api.getActiveSection().anchor == 'section3') ? section = 'section2' : section = fullpage_api.getActiveSection().anchor;
+            (fullpage_api.getActiveSection().anchor == 'section3' || fullpage_api.getActiveSection().anchor == 'section4') ? section = 'section2' : section = fullpage_api.getActiveSection().anchor;
             
             const local = document.querySelector(`li>a[href="#${section}"]`);
             local.classList.add('active-local');

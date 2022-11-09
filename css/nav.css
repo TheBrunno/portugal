@@ -42,8 +42,13 @@ nav .nav-wrapper .navigation-container > ul{
 }
 nav .nav-wrapper .navigation-container > ul li a{
     color: var(--font-color-second);
+    opacity: .85;
     padding: 5px 15px;
     position: relative;
+    transition: .1s;
+}
+nav .nav-wrapper .navigation-container > ul li a:hover{
+    opacity: 1;
 }
 nav .nav-wrapper .navigation-container > ul li a:after{
     content: "";
@@ -54,8 +59,9 @@ nav .nav-wrapper .navigation-container > ul li a:after{
     left: 0;
     bottom: -10px;
     width: 0;
-    transition: 0.3s;
+    transition: .3s;
 }
+nav .nav-wrapper .navigation-container > ul li a.active-local{ opacity: 1; }
 nav .nav-wrapper .navigation-container > ul li a.active-local:after{
     width: 100% !important;
 }

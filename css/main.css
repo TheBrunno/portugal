@@ -7,6 +7,15 @@
     width: 70vw;
     margin: 0 auto;
 }
+.slide-container .left-side h4{
+    font-size: 6em;
+}
+.section{
+    flex-direction: column;
+}
+.slide{
+    height: 100%;
+}
 .portugal{
     font-size: 100px;
     background-image: linear-gradient(to right, var(--green-flag) 32%, var(--red-flag) 32%);
@@ -14,11 +23,6 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     color: white;
-}
-.sides-container{
-    display: flex;
-    justify-content: space-between;
-    width: 85vw;
 }
 .section h1{
     font-size: 80px;
@@ -30,9 +34,14 @@
 .section .right-side p{
     margin-bottom: 0;
 }
-.slide-container h3{
+.section-container{
+    position: absolute;
+}
+.section h3{
     font-size: 60px;
     height: max-content !important;
+    position: relative;
+    text-align: center;
 }
 #fp-nav ul li a span{
     background-color: var(--red-flag);
