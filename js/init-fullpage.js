@@ -2,7 +2,7 @@ var myFullpage = new fullpage('#fullpage', {
     // Navigation
     menu: '.navigation-container',
     lockAnchors: false,
-    anchors: ['section1', 'section2', 'section3', 'section4', 'section5', 'section6', 'section7', 'section8'],
+    anchors: ['section1', 'section2', 'section3', 'section4', 'section5', 'section6', 'section7', 'section8', 'section9'],
     navigation: true,
     navigationPosition: 'right',
     showActiveTooltip: true,

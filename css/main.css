@@ -8,7 +8,9 @@
     margin: 0 auto;
 }
 .slide-container .left-side h4{
-    font-size: 6em;
+    font-size: 4em;
+    text-align: center;
+    margin-right: 40px;
 }
 .section{
     flex-direction: column;
@@ -33,6 +35,7 @@
 }
 .section .right-side p{
     margin-bottom: 0;
+    font-size: 1.25em;
 }
 .section-container{
     position: absolute;
@@ -55,6 +58,10 @@
 .green-text{
     color: var(--green-flag);
 }
+.indent{
+    text-align: center;
+    font-size: 1.3em;
+}
 @media (max-width: 1058px) {
     .section h1{
         text-align: center;
@@ -72,6 +79,12 @@
         text-align: center;
     }
 }
+@media (max-width: 700px){
+    .section .left-side h4{
+        font-size: 2.5em;
+        margin: 0;
+    }
+}
 @media (max-width: 500px){
     .fp-prev,
     .fp-next{
@@ -85,12 +98,44 @@
     .section h3{
         font-size: 3em;
     }
+    .section h4{
+        font-size: 2em;
+    }
     .portugal{
         font-size: 1.15em;
+    }
+    .section .right-side p{
+        font-size: 1.1em;
+    }
+    .section .left-side h4{
+        font-size: 2em;
+        margin: 0;
+    }
+    .indent{
+        font-size: 1em;
+    }
+    .right-side{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 65vh;
+    }
+    .section-container{
+        box-sizing: border-box;
+        padding-bottom: 50px;
+        bottom: 1%;
     }
 }
 @media (max-width: 382px){
     .section h3{
         font-size: 2.6em;
+    }
+    .section .right-side p{
+        font-size: 1em;
+    }
+}
+@media (max-height: 700px){
+    .section-container{
+        bottom: 0;
     }
 }
