@@ -121,8 +121,8 @@
         height: 65vh;
     }
     .section-container{
-        box-sizing: border-box;
-        padding-bottom: 50px;
+        /* box-sizing: border-box; */
+        /* padding-bottom: 50px; */
         bottom: 1%;
     }
 }
@@ -136,6 +136,12 @@
 }
 @media (max-height: 700px){
     .section-container{
-        bottom: 0;
+        bottom: 1px;
+    }
+    .right-side{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        /* height: 65vh; */
     }
 }
