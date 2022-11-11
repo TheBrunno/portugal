@@ -119,12 +119,10 @@
     .right-side{
         display: flex;
         flex-direction: column;
-        justify-content: space-evenly;
+        justify-content: flex-start;
         height: 65vh;
     }
     .section-container{
-        /* box-sizing: border-box; */
-        /* padding-bottom: 50px; */
         bottom: 1%;
     }
 }
@@ -144,6 +142,5 @@
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
-        /* height: 65vh; */
     }
 }
