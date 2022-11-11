@@ -97,6 +97,8 @@
     }
     .section h3{
         font-size: 3em;
+        top: 10px;
+        box-sizing: border-box;
     }
     .section h4{
         font-size: 2em;
