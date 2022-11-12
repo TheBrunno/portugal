@@ -127,7 +127,7 @@
         font-size: 1.15em;
     }
     .section .right-side p{
-        font-size: 1.1em;
+        font-size: 1em;
     }
     .section .left-side h4, .section .right-side h4{
         font-size: 2em;
@@ -151,11 +151,15 @@
         text-align: center;
     }
     .slide-container .left-side img{
-        width: 50vw;
+        width: max-content;
+        height: 13vh;
         margin: 0;
     }
     .slide-container{
         width: 80vw;
+    }
+    .right-side ul:last-child{
+        padding-bottom: 55px;
     }
 }
 @media (max-width: 382px){
@@ -179,7 +183,7 @@
         top: 0;
         font-size: 2.2em;
     }
-    .section .left-side h4{
+    .section .left-side h4, .section .right-side h4{
         margin-top: 15px;
         font-size: 1.7em;
     }
