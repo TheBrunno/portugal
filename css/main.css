@@ -146,10 +146,11 @@
         justify-content: flex-start;
     }
     .section h3{
-        top: -5px;
+        top: 0;
         font-size: 2.2em;
     }
     .section .left-side h4{
+        margin-top: 15px;
         font-size: 1.7em;
     }
 }
