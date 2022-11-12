@@ -62,6 +62,11 @@
     text-align: center;
     font-size: 1.3em;
 }
+.section ul li{
+    font-size: 1.1em;
+    list-style-type: square;
+    list-style-image: linear-gradient(to bottom, var(--red-flag), var(--red-flag));
+}
 @media (max-width: 1058px) {
     .section h1{
         text-align: center;
@@ -97,11 +102,8 @@
     }
     .section h3{
         font-size: 3em;
-        top: 15px;
+        top: 10px;
         box-sizing: border-box;
-    }
-    .section h4{
-        font-size: 2em;
     }
     .portugal{
         font-size: 1.15em;
@@ -130,7 +132,7 @@
     .section h3{
         font-size: 2.6em;
     }
-    .section .right-side p{
+    .section .right-side p, .section ul li{
         font-size: 1em;
     }
 }
@@ -142,5 +144,12 @@
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
+    }
+    .section h3{
+        top: -5px;
+        font-size: 2.2em;
+    }
+    .section .left-side h4{
+        font-size: 1.7em;
     }
 }
