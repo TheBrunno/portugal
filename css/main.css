@@ -176,7 +176,8 @@
         padding-left: 5px;
     }
     .respons{
-        display: inline-flex;
+        display: inline-block;
+        position: absolute;
         width: 0;
         height: 0;
         visibility: hidden;
@@ -209,6 +210,11 @@
     .section .left-side h4, .section .right-side h4{
         margin-top: 15px;
         font-size: 1.7em;
+    }
+}
+@media (max-height: 600px){
+    .section h3{
+        top: 15px;
     }
 }
 .hidden{
