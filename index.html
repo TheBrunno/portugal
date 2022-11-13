@@ -11,6 +11,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="css/fullpage.css">
     <link rel="stylesheet" href="css/animate-min.css">
+    <link rel="stylesheet" href="css/lightbox.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/main.css">
@@ -391,7 +392,14 @@
                 <div class="slide" data-anchor="slide1">
                     <div class="slide-container">
                         <div class="left-side">
-                            <img src="images/main-images/torre-de-belem-p.png">
+                            <a href="images/main-images/torre-de-belem-m.png" data-lightbox="torre">
+                                <img src="images/main-images/torre-de-belem-p.png">
+                            </a>
+                            <a href="images/main-images/belem1-m.png" data-lightbox="torre" class="hidden"></a>
+                            <a href="images/main-images/belem2-m.png" data-lightbox="torre" class="hidden"></a>
+                            <a href="images/main-images/belem3-m.png" data-lightbox="torre" class="hidden"></a>
+                            <a href="images/main-images/belemi1-m.png" data-lightbox="torre" class="hidden"></a>
+                            <a href="images/main-images/belemi2-m.png" data-lightbox="torre" class="hidden"></a>
                         </div>
                         <div class="right-side">
                             <h4>Torre de Belém</h4>
@@ -415,7 +423,14 @@
                 <div class="slide" data-anchor="slide2">
                     <div class="slide-container">
                         <div class="left-side">
-                            <img src="images/main-images/santuario-fatima-p.png">
+                            <a href="images/main-images/santuario-fatima-m.png" data-lightbox="fatima">
+                                <img src="images/main-images/santuario-fatima-p.png">
+                            </a>
+                            <a href="images/main-images/fatima1-m.png" data-lightbox="fatima" class="hidden"></a>
+                            <a href="images/main-images/fatima2-m.png" data-lightbox="fatima" class="hidden"></a>
+                            <a href="images/main-images/fatima3-m.png" data-lightbox="fatima" class="hidden"></a>
+                            <a href="images/main-images/fatimai1-m.png" data-lightbox="fatima" class="hidden"></a>
+                            <a href="images/main-images/fatimai2-m.png" data-lightbox="fatima" class="hidden"></a>
                         </div>
                         <div class="right-side">
                             <h4>Santuário de Fátima</h4>
@@ -430,7 +445,16 @@
                 <div class="slide" data-anchor="slide3">
                     <div class="slide-container">
                         <div class="left-side">
-                            <img src="images/main-images/mosteiro-dos-jeronimos-p.png">
+                            <a href="images/main-images/mosteiro-dos-jeronimos-m.png" data-lightbox="mosteiro">
+                                <img src="images/main-images/mosteiro-dos-jeronimos-p.png">
+                            </a>
+                            <a href="images/main-images/mosteiro1-m.png" data-lightbox="mosteiro" class="hidden"></a>
+                            <a href="images/main-images/mosteiro2-m.png" data-lightbox="mosteiro" class="hidden"></a>
+                            <a href="images/main-images/mosteiro3-m.png" data-lightbox="mosteiro" class="hidden"></a>
+                            <a href="images/main-images/mosteiro4-m.png" data-lightbox="mosteiro" class="hidden"></a>
+                            <a href="images/main-images/mosteiroi1-m.png" data-lightbox="mosteiro" class="hidden"></a>
+                            <a href="images/main-images/mosteiroi2-m.png" data-lightbox="mosteiro" class="hidden"></a>
+
                         </div>
                         <div class="right-side">
                             <h4>Mosteiro dos Jerónimos</h4>
@@ -485,6 +509,8 @@
             </div>
         </div>
     </div>
+    <script src="js/lightbox-plus-jquery.js"></script>
+    <script src="js/lightbox.js"></script>
     <script src="js/fullpage.js"></script>
     <script src="js/init-fullpage.js"></script>
     <script src="js/bootstrap-min.js"></script>

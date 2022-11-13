@@ -188,3 +188,8 @@
         font-size: 1.7em;
     }
 }
+.hidden{
+    visibility: 0;
+    height: 0;
+    width: 0;
+}

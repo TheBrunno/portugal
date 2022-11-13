@@ -18,5 +18,5 @@
 </ul>
 <hr>
 <p>
-  Nesse projeto foram utilizadas as bibliotecas <a href="https://alvarotrigo.com/fullPage/">fullpage.js</a> e <a href="https://animate.style/">animate.css</a>.
+  Nesse projeto foram utilizadas as bibliotecas <a href="https://alvarotrigo.com/fullPage/">fullpage.js</a>, <a href="https://animate.style/">animate.css</a> e <a href="https://lokeshdhakar.com/projects/lightbox2/">lightbox2</a>.
 </p>
