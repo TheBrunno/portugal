@@ -93,6 +93,9 @@
 .desktop-margin-top{
     margin-top: 50px;
 }
+.desktop-margin-bottom{
+    margin-bottom: 100px;
+}
 @media (max-width: 1058px), (max-height: 600px) {
     .section h1{
         text-align: center;
@@ -187,6 +190,9 @@
     }
     .desktop-margin-top{
         margin-top: 0;
+    }
+    .desktop-margin-bottom{
+        margin-bottom: 0;
     }
 }
 @media (max-width: 382px){
