@@ -116,7 +116,7 @@
         margin: 0;
     }
 }
-@media (max-width: 500px){
+@media (max-width: 500px), (max-height: 600px){
     .fp-prev,
     .fp-next{
         visibility: hidden;
