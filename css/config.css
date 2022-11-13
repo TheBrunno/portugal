@@ -1,0 +1,28 @@
+.turismo .left-side img{ border-radius: 17% 83% 10% 90% / 87% 17% 83% 13%; cursor: pointer;}
+.tecnologia .left-side img{ border-radius: 3% 97% 3% 97% / 95% 4% 96% 5%; }
+.culinaria .left-side img{ border-radius: 80% 20% 86% 14% / 10% 93% 7% 90% ; }
+.section ul.red-flag li{ list-style-image: linear-gradient(to bottom, var(--red-flag), var(--red-flag)); }
+.section ul.green-flag li{ list-style-image: linear-gradient(to bottom, var(--green-flag), var(--green-flag)); }
+.red-text{ color: var(--red-flag); }
+.green-text{ color: var(--green-flag); }
+.desktop-margin-top{ margin-top: 60px; }
+.desktop-margin-bottom{ margin-bottom: 100px; }
+
+.hidden{
+    visibility: 0;
+    height: 0;
+    width: 0;
+}
+@media (max-width: 500px), (max-height: 600px){
+    .respons{
+        display: inline-block;
+        position: absolute;
+        width: 0;
+        height: 0;
+        visibility: hidden;
+    }
+    .uppercase{ text-transform: uppercase; }
+    .desktop-margin-top{ margin-top: 0; }
+    .desktop-margin-bottom{ margin-bottom: 0; }
+    .mobile-padding-bottom{ padding-bottom: 60px; }
+}

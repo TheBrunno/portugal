@@ -20,15 +20,8 @@
     transition: .35s;
     margin-right: 30px;
 }
-.turismo .left-side img{
-    border-radius: 17% 83% 10% 90% / 87% 17% 83% 13%; 
-}
-.tecnologia .left-side img{
-    border-radius: 3% 97% 3% 97% / 95% 4% 96% 5%;
-}
 .slide-container .left-side img:hover{
-    cursor: pointer;
-    filter: drop-shadow(5px 3px 3px #3a3a3a23);
+    filter: drop-shadow(7px 5px 5px #3a3a3a23);
 }
 .section{
     flex-direction: column;
@@ -51,6 +44,9 @@
 .names li{
     font-size: 25px;
 }
+.section .right-side p{
+    margin: 5px 0;
+}
 .section .right-side p, .section .right-side ul li{
     margin-bottom: 0;
     font-size: 1.25em;
@@ -70,31 +66,14 @@
 .fp-slidesNav ul{
     text-align: center;
 }
-.red-text{
-    color: var(--red-flag);
-}
-.green-text{
-    color: var(--green-flag);
-}
 .indent{
     text-align: center;
     font-size: 1.3em;
 }
-.section ul.red-flag li{
-    list-style-image: linear-gradient(to bottom, var(--red-flag), var(--red-flag));
-}
-.section ul.green-flag li{
-    list-style-image: linear-gradient(to bottom, var(--green-flag), var(--green-flag));
-}
-.section ul li{
+.section .right-side ul li{
     font-size: 1.1em;
     list-style-type: square;
-}
-.desktop-margin-top{
-    margin-top: 50px;
-}
-.desktop-margin-bottom{
-    margin-bottom: 100px;
+    margin: 5px 0;
 }
 @media (max-width: 1058px), (max-height: 600px) {
     .section h1{
@@ -178,22 +157,7 @@
     .section .right-side ul{
         padding-left: 5px;
     }
-    .respons{
-        display: inline-block;
-        position: absolute;
-        width: 0;
-        height: 0;
-        visibility: hidden;
-    }
-    .uppercase{
-        text-transform: uppercase;
-    }
-    .desktop-margin-top{
-        margin-top: 0;
-    }
-    .desktop-margin-bottom{
-        margin-bottom: 0;
-    }
+
 }
 @media (max-width: 382px){
     .section h3{
@@ -222,9 +186,4 @@
     .section h3{
         top: 15px;
     }
-}
-.hidden{
-    visibility: 0;
-    height: 0;
-    width: 0;
 }
