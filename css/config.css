@@ -1,6 +1,7 @@
 .turismo .left-side img{ border-radius: 17% 83% 10% 90% / 87% 17% 83% 13%; cursor: pointer;}
 .tecnologia .left-side img{ border-radius: 3% 97% 3% 97% / 95% 4% 96% 5%; }
-.culinaria .left-side img{ border-radius: 80% 20% 86% 14% / 10% 93% 7% 90% ; }
+.culinaria .left-side img{ border-radius: 80% 20% 86% 14% / 10% 93% 7% 90%; }
+.festividades .left-side img { border-radius: 6% 94% 7% 93% / 95% 7% 93% 5% ; cursor: pointer;}
 .section ul.red-flag li{ list-style-image: linear-gradient(to bottom, var(--red-flag), var(--red-flag)); }
 .section ul.green-flag li{ list-style-image: linear-gradient(to bottom, var(--green-flag), var(--green-flag)); }
 .red-text{ color: var(--red-flag); }
