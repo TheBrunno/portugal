@@ -131,7 +131,7 @@
     }
     .section h3{
         margin: 0 !important;
-        top: 150px !important;
+        top: 170px !important;
         font-size: 2.5em;
         z-index: 2;
         background-color: #fff;
@@ -142,9 +142,6 @@
     }
     .section .left-side img{
         margin: 0;
-    }
-    .section .right-side img{
-        /* margin-top: 50px; */
     }
     .fp-prev,
     .fp-next{
