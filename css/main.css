@@ -131,7 +131,7 @@
     }
     .section h3{
         margin: 0 !important;
-        top: 80px !important;
+        top: 100px !important;
         font-size: 2.5em;
         z-index: 2;
         background-color: #fff;
@@ -208,6 +208,12 @@
     .desc{
         padding-bottom: 10vh;
     }
+    .right-side ul:last-child{
+        padding-bottom: 90px;
+    }
+    .right-side p:last-child{
+        padding-bottom: 100px;
+    }
 }
 @media (max-width: 382px){
     .section h3{
@@ -240,11 +246,5 @@
 @media (max-height: 640px) {
     .bandeiras > img, .x-container > img{
         width: 30vh;
-    }
-    .right-side li:last-child{
-        padding-bottom: 50px;
-    }
-    .right-side p:last-child{
-        padding-bottom: 100px;
     }
 }
