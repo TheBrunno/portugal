@@ -78,6 +78,30 @@
 #qr-code{
     width: 30vw;
 }
+.bandeiras{
+    position: relative;
+}
+.bandeiras, .x-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around !important;
+}
+.bandeiras > img, .x-container > img{
+    width: 300px;
+    margin: 0 20px;
+}
+.x-container{
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: 10;
+}
+.x-hidden{
+    opacity: 0;
+}
+.desc{
+    padding-bottom: 0;
+}
 @media (max-width: 1058px), (max-height: 600px) {
     .section h1{
         text-align: center;
@@ -163,7 +187,16 @@
     #qr-code{
         width: 80vw;
     }
-
+    .bandeiras > img, .x-container > img{
+        width: 200px;
+        margin: 5px 0;
+    }
+    .bandeiras, .x-container{
+        justify-content: flex-start !important;
+    }
+    .desc{
+        padding-bottom: 10vh;
+    }
 }
 @media (max-width: 382px){
     .section h3{
