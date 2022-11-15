@@ -75,6 +75,9 @@
     list-style-type: square;
     margin: 5px 0;
 }
+#qr-code{
+    width: 30vw;
+}
 @media (max-width: 1058px), (max-height: 600px) {
     .section h1{
         text-align: center;
@@ -156,6 +159,9 @@
     }
     .section .right-side ul{
         padding-left: 5px;
+    }
+    #qr-code{
+        width: 80vw;
     }
 
 }
