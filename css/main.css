@@ -131,17 +131,20 @@
     }
     .section h3{
         margin: 0 !important;
-        top: 190px !important;
+        top: 150px !important;
         font-size: 2.5em;
         z-index: 2;
         background-color: #fff;
         padding: 30px 0 0 0!important;
     }
     .section .left-side h4{
-        margin-top: 80px;
+        margin-top: 20px;
     }
     .section .left-side img{
-        margin: 80px 0 0 0;
+        margin: 0;
+    }
+    .section .right-side img{
+        /* margin-top: 50px; */
     }
     .fp-prev,
     .fp-next{
@@ -198,6 +201,9 @@
     #qr-code{
         width: 80vw;
     }
+    .bandeiras{
+        margin-top: 100px;
+    }
     .bandeiras > img, .x-container > img{
         width: 200px;
         margin: 5px 0;
@@ -240,7 +246,7 @@
         font-size: 1.3em;
     }
     .section .left-side img{
-        margin: 85px 0 0 0 !important;
+        margin: 160px 0 0 0 !important;
     }
 }
 @media (max-height: 640px) {
